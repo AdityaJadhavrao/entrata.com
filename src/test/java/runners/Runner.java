@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         features = "src/test/java/resources/cucumberFeatures",
         glue = {"stepDefinitions"},
         plugin = {"pretty"},
-        tags="@Regression"
+        tags="@Login"
 )
 public class Runner {
 }
