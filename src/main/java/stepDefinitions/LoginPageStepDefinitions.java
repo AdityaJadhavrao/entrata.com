@@ -55,7 +55,7 @@ public class LoginPageStepDefinitions {
         watchDemo.userDetails();
     }
 
-    // TC03
+    /// TC03
     @Given("the user hovers over the Products tab")
     public void user_hovers_on_product_tab() {
         dynamicElements.open();
